@@ -272,7 +272,6 @@ public:
 				//cout << current_id << " <- " << node_to_add << '\n';
 
 				if (nodes[node_to_add].computed) {
-					//cout << "sugi_pula\n";
 					nodes[current_id].value += 1.0 * nodes[node_to_add].value * node_to_add_weight;
 					
 					if (i == nodes[current_id].inputs.size() - 1){
